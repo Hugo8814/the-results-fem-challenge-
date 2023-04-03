@@ -1,0 +1,223 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: RGB(255, 254, 254);
+    border-radius: 30px;
+   
+    
+    
+    
+    
+    
+}
+
+
+
+body {
+    display: flex;
+    margin-top: 200px;
+    justify-content: center;
+    font-family: "Hanken Grotesk", sans-serif;
+    background-color: RGB(240, 244, 253);
+   
+
+
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+p {
+    font-size: 18px;
+    color: hsl(241, 100%, 89%);
+    font-weight: 400;
+
+}
+
+#leftside {
+    background: linear-gradient(RGB(103, 64, 255), RGB(48, 45, 233));
+    width: 340px;
+    height: 480px;
+    border-radius: 30px
+
+}
+
+#rightside {
+    background-color: RGB(254, 255, 255);
+    width: 340px;
+    height: 480px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 30px
+
+}
+
+h2 {
+    font-size: 70px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+h1 {
+    color: hsl(241, 100%, 89%);
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 30px;
+
+}
+
+h3 {
+    color: hsl(241, 100%, 89%);
+    margin-top: 5px;
+}
+
+#great {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#ball {
+
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    align-self: center;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), RGB(71, 52, 239));
+    margin-bottom: 30px;
+
+}
+
+.sum {
+    font-size: larger;
+    font-weight: 700;
+    padding: 30px 0px 20px 40px;
+    color: hsl(224, 30%, 27%);
+
+
+}
+
+#rightside .sum {
+    align-self: flex-start;
+}
+
+.con {
+    font-weight: 600;
+    color: white;
+    background-color: hsl(224, 30%, 27%);
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 25px;
+    padding: 15px 0px 15px 0px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.rec {
+    background-color: hsla(0, 100%, 67%, 0.1);
+    padding: 15px 0px 15px 0px;
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+.mem {
+    background-color: hsla(39, 100%, 56%, 0.1);
+    padding: 15px 0px 15px 0px;
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ver {
+    background-color: hsla(166, 100%, 37%, 0.1);
+    padding: 15px 0px 15px 0px;
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.vis {
+    background-color: hsla(234, 85%, 45%, 0.1);
+    padding: 15px 0px 15px 0px;
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+
+#Reaction {
+    color: hsl(0, 100%, 67%);
+    margin-right: 40px;
+    font-weight:600;
+}
+#Memory{
+    color:hsl(39, 100%, 56%) ;
+    margin-right: 40px;
+    font-weight:600;
+}
+#Verbal{
+    color:hsl(166, 100%, 37%) ;
+    margin-right: 40px;
+    font-weight:600;
+}
+#Visual{
+    color: hsl(234, 85%, 45%) ;
+    margin-right: 40px;
+    font-weight:600;
+}
+#ui {
+  color:hsl(224, 30%, 27%);
+  font-weight:bolder;
+}
+#io{
+ color:hsl(224, 30%, 27%);
+ font-weight:bolder;
+}
+#ty{
+ color:hsl(224, 30%, 27%);
+ font-weight:bolder;
+}
+#yu{
+ color:hsl(224, 30%, 27%);
+ font-weight:bolder;
+}
+
+#recnum{
+    color:grey;
+    font-weight:bolder;
+    
+}
+#memnum{
+    color:grey;
+    font-weight:bolder;
+}
+#vernum{
+    color:grey;
+    font-weight:bolder;
+}
+#visnum{
+    color:grey;
+    font-weight:bolder;
+}
